@@ -20,6 +20,8 @@
     --title-weight: 700;
     --text-weight: 400;
     --menu-text-weight: 500;
+
+    --font-family-principal: "Montserrat";
 }
 
 /* CSS reset */
@@ -37,4 +39,8 @@ button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family-principal);
 }
