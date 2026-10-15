@@ -6,12 +6,15 @@
     box-sizing: border-box;
     padding: 24px 16px;
     border-radius: 16px;
+    text-align: center;
 }
 
 .card header{
     display: block;
-    position: static;
     background-color: transparent;
+    position: static;
+    padding: 0;
+    margin-bottom: 24px;
 }
 
 .card header p {
