@@ -15,6 +15,7 @@
     color: var(--backgroud-secondary-color);
     margin-top: 16px;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .footer .footer-container .footer-redes img{
@@ -22,17 +23,42 @@
     height: 32px;
 }
 
+@media screen and (min-width: 768px) {
+    .footer {
+        padding: 32px 60px;
+    }
+
+    .footer .footer-container .text-container p {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .footer .footer-container {
+        margin-top: 32px;
+    }
+
+    .footer .footer-container .footer-redes p{
+        font-size: 20px;
+    }
+}
+
 @media screen and (min-width: 1440px) {
     .footer .footer-container {
         flex-direction: row;
         justify-content: space-between;
-        padding: 0 120px;
+        padding: 52px 120px;
     }
 
     .footer .footer-container .text-container {
         text-align: left;
     }
 
+    .footer .footer-container .footer-redes {
+        width: 165px;
+    }
 
-    
+    .footer .footer-container .footer-redes p {
+        font-size: 16px;
+    }
+
 }
