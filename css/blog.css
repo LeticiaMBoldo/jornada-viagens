@@ -1,0 +1,135 @@
+.text-img-start {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.img-tokyo-mobile {
+    display: block;
+}
+
+.img-tokyo-desktop {
+    display: none;
+}
+.img-blog-desktop {
+    display: none;
+}
+
+.text-start h3{
+    font-weight: var(--title-weight);
+    font-size: 28px;
+    line-height: 100%;
+    color: var(--text-primary-color);
+    margin-top: 32px;
+}
+
+.text-start p {
+    font-weight: var(--text-weight);
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--text-primary-color);
+}
+
+.img-start img {
+    height: 360px;
+}
+
+.text-start figure img {
+    margin-top: 32px;
+    width: 100%;
+    height: 300px;
+}
+
+.text-start figure figcaption {
+    margin-top: 8px;
+    font-weight: var(--text-weight);
+    font-size: 14px;
+    line-height: 28px;
+    color: var(--text-primary-color);
+}
+
+.img-blog-mobile {
+    display: block;
+}
+
+.img-blog-tablet {
+    display: none;
+}
+
+.places {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.places .blog-items .blog-img-items {
+    width: 100%;
+    height: 300px;
+}
+
+.places .blog-items header .osaka {
+    background: url(../img/blog-osaka-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.places .blog-items header .hiroshima {
+    background: url(../img/blog-hiroshima-mobile.png) no-repeat;
+        background-size: cover;
+}
+
+.places .blog-items header .kyoto {
+    background: url(../img/blog-kyoto-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.blog-items  main p{
+    margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .text-img-start {
+        flex-direction: row;
+    }
+
+    .img-blog-mobile {
+        display: none;
+    }
+
+    .img-blog-tablet {
+        display: block;
+    }
+
+    .img-blog-desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .img-tokyo-mobile {
+        display: none;
+    }
+
+    .img-tokyo-desktop {
+        display: block;
+    }
+    
+    .text-img-start {
+        justify-content: space-between;
+    }
+
+    .places {
+        flex-direction: row;
+    }
+
+    .img-blog-mobile {
+        display: none;
+    }
+
+    .img-blog-tablet {
+        display: none;
+    }
+
+    .img-blog-desktop {
+        display: block;
+    }
+}

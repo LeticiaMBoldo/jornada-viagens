@@ -35,7 +35,8 @@ label,
 input,
 select,
 textarea,
-button {
+button,
+figure {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -111,9 +112,6 @@ section.banner{
 .section-header-title {
     width: 312px;
     padding: 80px 24px 16px;
-}
-
-.section-header-title {
     color: var(--text-seconday-color);
 }
 
