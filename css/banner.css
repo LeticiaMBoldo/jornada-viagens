@@ -1,0 +1,23 @@
+.banner .img-banner {
+    height: 400px;
+    width: 100%;
+    background: url(../img/footer-img.png) no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width:768px) {
+    .banner .img-banner {
+        height: 768px;
+        background: url(../img/footer-img-tablet.png) no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .banner .img-banner {
+        height: 1440px;
+        background: url(../img/footer-img-desktop.png) no-repeat;
+        background-size: cover;
+    }
+    
+}

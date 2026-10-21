@@ -75,5 +75,7 @@
 
     .destination-items {
         flex-direction: row;
+        justify-content: space-between;
+        gap: 17px;
     }
 }
