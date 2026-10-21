@@ -23,6 +23,7 @@
     background: url(../img/hero-blog-mobile.jpg) no-repeat;
     background-size: cover;
     height: 460px;
+    margin-bottom: 88px;
 }
 
 .hero-pagina-img {
@@ -56,6 +57,10 @@
         height: 620px;
     }
 
+    .section-header-title {
+        padding: 152px 0 0 95px;
+    }
+
     .hero-pagina-img {
         background: url(../img/hero-pagina-tablet.jpg) no-repeat;
         background-size: cover;
@@ -84,6 +89,10 @@
         background-size: cover;
         transform: none;
         height: 620px;
+    }
+
+    .section-header-title {
+        padding: 158px 0 0 120px;
     }
 
     .hero-pagina-img {
