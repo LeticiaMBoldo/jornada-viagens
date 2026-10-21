@@ -73,7 +73,8 @@ section.banner{
     text-align: center;
 }
 
-.section-title hr {
+.section-title hr, 
+.section-header-title hr {
     background-color: var(--secondary-color);
     width: 180px;
     height: 4px;
@@ -107,6 +108,30 @@ section.banner{
     text-align: center;
 }
 
+.section-header-title {
+    width: 312px;
+    padding: 80px 24px 16px;
+}
+
+.section-header-title {
+    color: var(--text-seconday-color);
+}
+
+.section-header-title hr {
+    margin: 0 0 32px;
+}
+
+.title-content-hero {
+    font-size: 48px;
+    font-weight: var(--title-weight);
+}
+
+.text-content-hero {
+    font-size: 20px;
+    font-weight: var(--text-weight);
+    line-height: 32px;
+}
+
 @media screen and (min-width: 768px) {
     .section-title h2 {
         font-size: 32px;
@@ -119,6 +144,16 @@ section.banner{
 
     section {
         width: 648px;
+    }
+
+    .section-header-title {
+        width: 500px;
+        padding: 80px 24px 16px;
+    }
+
+    .text-content-hero {
+        font-size: 32px;
+        line-height: 150%;
     }
 }
 

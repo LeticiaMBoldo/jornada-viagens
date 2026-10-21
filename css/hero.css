@@ -14,6 +14,29 @@
     line-height: 1.5; /*espaçamento entre as linhas */
 }
 
+.hero-blog {
+    width: 100%;
+    margin: 0;
+}
+
+.hero-blog-img {
+    background: url(../img/hero-blog-mobile.jpg) no-repeat;
+    background-size: cover;
+    height: 460px;
+}
+
+.hero-pagina-img {
+    background: url(../img/hero-pagina-mobile.jpg) no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.hero-contato-img {
+    background: url(../img/hero-contato-mobile.jpg) no-repeat;
+    background-size: cover;
+    height: 460px;
+}
+
 @media screen and (min-width: 768px) {
     .hero-img {
         height: 620px;
@@ -25,6 +48,25 @@
         padding: 88px 60px;
         font-size: 32px;
     }
+
+    .hero-blog-img {
+        background: url(../img/hero-blog-tablet-2.jpg) no-repeat;
+        background-size: cover;
+        transform: none;
+        height: 620px;
+    }
+
+    .hero-pagina-img {
+        background: url(../img/hero-pagina-tablet.jpg) no-repeat;
+        background-size: cover;
+        height: 620px;
+    }
+
+    .hero-contato-img {
+        background: url(../img/hero-contato-desktop_2.jpg) no-repeat;
+        background-size: cover;
+        height: 620px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -35,6 +77,25 @@
 
     .hero h2 {
         padding: 88px 120px;
+    }
+
+    .hero-blog-img {
+        background: url(../img/hero-blog-desktop_2.jpg) no-repeat;
+        background-size: cover;
+        transform: none;
+        height: 620px;
+    }
+
+    .hero-pagina-img {
+        background: url(../img/hero-pagina-desktop.jpg) no-repeat;
+        background-size: cover;
+        height: 620px;
+    }
+
+    .hero-contato-img {
+        background: url(../img/hero-contato-desktop_2.jpg) no-repeat;
+        background-size: cover;
+        height: 620px;
     }
 }
 
