@@ -1,0 +1,21 @@
+.hero-footer .hero-travel-img {
+    background: url(../img/travel-mobile-kyoto.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-footer .hero-travel-img {
+        background: url(../img/travel-tablet-kyoto.png) no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero-footer .hero-travel-img {
+        background: url(../img/travel-desktop-kyoto.png) no-repeat;
+        background-size: cover;
+        height: 620px;
+    }
+}

@@ -26,6 +26,21 @@
     grid-column: span 2;
 }
 
+.payments .content-container .image-gallery .image.four {
+    background: url(../img/payments-temple.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.five {
+    background: url(../img/payments-city.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.six {
+    background: url(../img/payments-people.png) no-repeat;
+    background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
     .payments .content-container .image-gallery .image.first {
         background: url(../img/gallery1-tablet.png) no-repeat;
@@ -39,6 +54,21 @@
 
     .payments .content-container .image-gallery .image.thirdy {
         background: url(../img/gallery3-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .content-container .image-gallery .image.four {
+        background: url(../img/payments-temple-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .content-container .image-gallery .image.five {
+        background: url(../img/payments-city-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .content-container .image-gallery .image.six {
+        background: url(../img/payments-people-tablet.png) no-repeat;
         background-size: cover;
     }
 }
