@@ -38,6 +38,17 @@
     height: 460px;
 }
 
+.hero-footer {
+    width: 100%;
+    margin: 0;
+}
+
+.hero-footer-contato-img {
+    background: url(../img/contato-rodape-mobile.png) no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
 @media screen and (min-width: 768px) {
     .hero-img {
         height: 620px;
@@ -68,7 +79,13 @@
     }
 
     .hero-contato-img {
-        background: url(../img/hero-contato-desktop_2.jpg) no-repeat;
+        background: url(../img/hero-contato-tablet_2.jpg) no-repeat;
+        background-size: cover;
+        height: 620px;
+    }
+
+    .hero-footer-contato-img {
+        background: url(../img/contato-rodape-tablet.png) no-repeat;
         background-size: cover;
         height: 620px;
     }
@@ -103,6 +120,12 @@
 
     .hero-contato-img {
         background: url(../img/hero-contato-desktop_2.jpg) no-repeat;
+        background-size: cover;
+        height: 620px;
+    }
+
+    .hero-footer-contato-img {
+        background: url(../img/contato-rodape-desktop.png) no-repeat;
         background-size: cover;
         height: 620px;
     }
